@@ -26,17 +26,18 @@ public class SmokeTest {
 		driver.findElement(ById.id("email")).sendKeys(username);
 		driver.findElement(ById.id("pass")).sendKeys(password);
 	}
-	
+
 	@Then("^login should be successful$")
 	public void login_should_be_successful() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
 		driver.findElement(ById.id("loginbutton")).click();
 	}
-	
+
 	@Then("^Close the browser$")
 	public void close_the_browser() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
 		Thread.sleep(3000);
 	    driver.quit();
 	}
+
 }
