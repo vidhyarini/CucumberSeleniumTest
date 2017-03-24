@@ -9,4 +9,4 @@ Scenario Outline: Test login with valid credentials
 	
 Examples:
 | username | password |
-| Tester1  | pass1 	  |
+| Tester   | pass1 	  |
