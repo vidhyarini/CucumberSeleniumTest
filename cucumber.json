@@ -1,0 +1,78 @@
+[
+  {
+    "uri": "Features/MyApplication.feature",
+    "id": "sample-feature-file",
+    "keyword": "Feature",
+    "name": "Sample Feature file",
+    "description": "",
+    "line": 2,
+    "tags": [
+      {
+        "name": "@SmokeTest",
+        "line": 1
+      }
+    ],
+    "elements": [
+      {
+        "id": "sample-feature-file;test-login-with-valid-credentials;;2",
+        "keyword": "Scenario Outline",
+        "name": "Test login with valid credentials",
+        "description": "",
+        "line": 12,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@SmokeTest",
+            "line": 1
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "Open facebook and login",
+            "line": 12,
+            "match": {
+              "location": "Features/MyApplication.feature:12"
+            },
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I enter username as \"Tester\" and password as \"pass1\"",
+            "line": 12,
+            "match": {
+              "location": "Features/MyApplication.feature:12"
+            },
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "login should be successful",
+            "line": 12,
+            "match": {
+              "location": "Features/MyApplication.feature:12"
+            },
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "Close the browser",
+            "line": 12,
+            "match": {
+              "location": "Features/MyApplication.feature:12"
+            },
+            "result": {
+              "status": "undefined"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
